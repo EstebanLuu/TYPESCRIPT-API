@@ -12,3 +12,5 @@ export interface Post {
   img: string;
   category: Category;
 }
+
+export type newDiaryEntry = omit<Post, "id">;
