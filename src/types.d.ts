@@ -13,4 +13,8 @@ export interface Post {
   category: Category;
 }
 
+// ´POST DEL JSON
+
 export type newDiaryEntry = omit<Post, "id">;
+
+// MODELO PARA AÑADIR UN NUEVO POST
