@@ -17,4 +17,4 @@ export interface Post {
 
 export type newDiaryEntry = omit<Post, "id">;
 
-// MODELO PARA AÑADIR UN NUEVO POST
+// MODELO PARA AÑADIR UN NUEVO POST 
